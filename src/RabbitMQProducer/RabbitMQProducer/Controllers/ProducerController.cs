@@ -37,7 +37,7 @@ namespace RabbitMQProducer.Controllers
                                          body: body);
                 }
 
-                return Ok(" Tarefa cadastrada na fila");
+                return Ok("Mensagem cadastrada na fila");
             }
             catch (Exception)
             {
